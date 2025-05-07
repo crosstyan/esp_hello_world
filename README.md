@@ -34,7 +34,15 @@ If you want to use this template to create your own project, you need to clone
 the repository recursively.  or run `git submodule update --init --recursive` to
 initialize and update the submodules after cloning the repository.
 
-If you don't need Arduino, delete the `components/arduino-esp32` directory.
+If you don't need Arduino, delete the `components/arduino` directory and remove
+the corresponding entry in `.gitmodules`.
+
+## Note to me
+
+```bash
+> git submodule add https://github.com/espressif/arduino-esp32 components/arduino
+Adding existing repo at 'components/arduino' to the index
+```
 
 ## See More
 
