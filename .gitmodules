@@ -1,5 +1,5 @@
-[submodule "components/arduino-esp32"]
-	path = components/arduino-esp32
+[submodule "components/arduino"]
+	path = components/arduino
 	url = https://github.com/espressif/arduino-esp32
 	branch = 3.2.0
 	shallow = true
