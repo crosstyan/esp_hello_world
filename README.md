@@ -17,3 +17,13 @@ idf_tools.py install esp-clang
 ```
 
 and change the clangd path (`clangd.path`) to `$ESP_CLANG_PATH/bin/clangd`.
+
+## ESP32 Arduino
+
+This repository is including [ESP32 Arduino](https://github.com/espressif/arduino-esp32) as a submodule.
+
+If you want to use this template to create your own project, you need to clone
+the repository recursively.  or run `git submodule update --init --recursive` to
+initialize and update the submodules after cloning the repository.
+
+If you don't need Arduino, delete the `components/arduino-esp32` directory.
