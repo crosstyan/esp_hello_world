@@ -1,8 +1,16 @@
 # ESP32 Template
 
-Expected to use with [esp-idf](https://github.com/espressif/esp-idf) v5.4 with [arduino-esp32](https://github.com/espressif/arduino-esp32) 3.2.0
+This repository is a template based on [Hello World Example](https://github.com/espressif/esp-idf/tree/master/examples/get-started/hello_world) with
 
-Change [Visual Studio Code Settings](.vscode/settings.json) accordingly.
+- [esp-idf](https://github.com/espressif/esp-idf) v5.4
+- [ESP32 Arduino](https://github.com/espressif/arduino-esp32) 3.2.0
+
+and a default `clang-format`/`clangd` configuration.
+
+Change [Visual Studio Code Settings](.vscode/settings.json) accordingly, if needed.
+
+I recommend to [install ESP-IDF from Git manually](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/linux-macos-setup.html).
+([Windows user could also work with it with PowerShell](https://github.com/espressif/esp-idf/blob/master/install.ps1))
 
 ## Language Server
 
@@ -27,3 +35,8 @@ the repository recursively.  or run `git submodule update --init --recursive` to
 initialize and update the submodules after cloning the repository.
 
 If you don't need Arduino, delete the `components/arduino-esp32` directory.
+
+## See More
+
+- [Arduino as an ESP-IDF component](https://docs.espressif.com/projects/arduino-esp32/en/latest/esp-idf_component.html)
+- [ESP-IDF Build System](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-guides/build-system.html)
